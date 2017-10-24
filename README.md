@@ -1,9 +1,9 @@
 
-<img src="nautilus.png" float="right" width="200px">
+<img src="nautilus.png" width="200px">
 
 This is a demo of the Kwarrtz/render library.  We will make a Nautilus figure
 by repeatedly rotating and scaling a base image with respect to one corner.
-For this we use the `orbit` function in the `Iterate` module.
+For this we use the `orbit` function in the included `Iterate` module.
 
 To generate the app, run `elm-make Nautilus.elm --output nautilus.html`, then open `nautilus.html` in a browser.
 
