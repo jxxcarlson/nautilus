@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "Graphics demo (Nautilus figure) using Kwarrtz/render package",
-    "repository": "https://github.com/jxxcarlson/nautilus",
+    "repository": "https://github.com/jxxcarlson/nautilus.git",
     "license": "BSD3",
     "source-directories": [
         "."
