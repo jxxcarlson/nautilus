@@ -1,5 +1,5 @@
 
-<img src="nautilus.png" width="200px">
+<img src="nautilus.png" width="200px"> <img src="nautilus_blue3.png">
 
 This is a demo of the Kwarrtz/render library.  We will make a Nautilus figure
 by repeatedly rotating and scaling a base image with respect to one corner.
