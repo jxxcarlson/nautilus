@@ -11,9 +11,7 @@ import Graphics.Render
         , group
         , angle
         , solid
-        , rectangle
         , opacity
-        , ellipse
         , filled
         , bordered
         , filledAndBordered
