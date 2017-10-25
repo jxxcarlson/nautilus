@@ -16,3 +16,5 @@ Here `-10` means "rotate 10 degrees counterclockwise," `cscale 0.95 0.95` means
 "scale the given figure by a factor of 0.95".  The `80` sets the number of transformed
 shapes to be generated.
 
+For more Elm graphics-related demos, see <a href="http://jxxcarlson.github.io">jxxcarlson.github.io</a>
+
