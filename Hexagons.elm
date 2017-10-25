@@ -34,7 +34,22 @@ render r =
     let
         s =
             polygon r.points
-                |> bordered 1 (solid <| rgb 0 0 0)
+                |> bordered
+                    1.0
+                    (solid <| rgb 204 82 0)
+                |> opacity 0.7
+    in
+        s
+
+
+render2 r =
+    let
+        s =
+            polygon r.points
+                |> bordered
+                    1.0
+                    (solid <| rgb 0 0 255)
+                |> opacity 0.7
     in
         s
 
@@ -119,19 +134,14 @@ a =
 baseShape =
     AbstractShape [ ( 0, 0 ), ( 1, 0 ), ( 1.5, a ), ( 1, 2 * a ), ( 0, 2 * a ), ( -0.5, a ) ] 0.0
         |> scale 100.0 100.0
+        |> rotate 20
 
 
-newShape =
-    baseShape
-        |> rotate 30
-        |> scale 0.7 0.7
-
-
-shapes2 =
+shapes =
     orbit ((rotate -10) >> (scale 0.95 0.95)) 80 baseShape
         |> List.map (translate 300 300)
         |> List.map render
 
 
 main =
-    group shapes2 |> svg 0 0 500 500
+    group shapes |> svg 0 0 500 500
