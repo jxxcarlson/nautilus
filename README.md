@@ -16,5 +16,5 @@ Here `-10` means "rotate 10 degrees counterclockwise," `cscale 0.95 0.95` means
 "scale the given figure by a factor of 0.95".  The `80` sets the number of transformed
 shapes to be generated.  Experiment with different values of these parameters.
 
-For more Elm graphics-related demos, see <a href="http://jxxcarlson.github.io">jxxcarlson.github.io</a>.  For a discussion of how the code in these examples work, see this <a href="https://medium.com/@jxxcarlson/drawing-repetitive-images-in-elm-2a4d7199026a">article on Medium.com</a>
+For more Elm graphics-related demos, see <a href="http://jxxcarlson.github.io">jxxcarlson.github.io</a>.  For a discussion of how the code in these examples works, see this <a href="https://medium.com/@jxxcarlson/drawing-repetitive-images-in-elm-2a4d7199026a">article on Medium.com</a>
 
