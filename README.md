@@ -7,7 +7,7 @@ For this we use the `orbit` function in the included `Iterate` module.
 
 The image on the left above is created by running `elm-make Nautilus.elm --output nautilus.html`, then opening `nautilus.html` in a browser.  The image on the right above is created by running `elm-make Hexagon.elm --output nautilus2.html`, then opening `nautilus2.html` in a browser. 
 
-You can play around with this code. For examaple, consider these two lines in `Nautilus.elm`
+You can play around with this code. For example, consider these two lines in `Nautilus.elm`
 ```
 shapes =
     orbit ((crotate -10) >> (cscale 0.95 0.95)) 80 baseShape |> List.map (translate 300 300)
