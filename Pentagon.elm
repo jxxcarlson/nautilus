@@ -22,7 +22,7 @@ import Color exposing (rgb)
 import Iterate exposing (orbit, iterate)
 
 
-{-| For the purposes of this demo, an AbstractShape is a rectangle
+{-| For the purposes of this demo, an AbstractShape is a polygon
 -}
 type alias AbstractShape =
     { points : List Point, angle : Float }
